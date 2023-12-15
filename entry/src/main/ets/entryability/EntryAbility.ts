@@ -45,6 +45,8 @@ export default class EntryAbility extends UIAbility {
   }
 
   onDestroy() {
+    // Destroy状态在UIAbility实例销毁时触发。
+    // 可以在onDestroy()回调中进行系统资源的释放、数据的保存等操作
     hilog.info(this.domain, this.TAG, '%{public}s', 'Ability onDestroy');
   }
 
