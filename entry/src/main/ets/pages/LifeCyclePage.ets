@@ -17,11 +17,11 @@ struct LifeCyclePage {
 
   }
 
-  onBackPress(){
+  aboutToDisappear() {
 
   }
 
-  aboutToDisappear() {
+  onBackPress(){
 
   }
 
