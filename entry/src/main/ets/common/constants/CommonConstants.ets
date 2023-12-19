@@ -35,9 +35,44 @@ export default class CommonConstants{
   static FULL_HEIGHT: string = '100%';
 
   /**
+   * The hello world font size.
+   */
+  static readonly FONT_SIZE: string = '38fp';
+
+  /**
    * Default fontSize
    */
   static DEFAULT_FONT_SIZE: number = 30;
+
+  /**
+   * The param font size.
+   */
+  static readonly PARAMS_FONT_SIZE: string = '20fp';
+
+  /**
+   * The button font size.
+   */
+  static readonly BUTTON_FONT_SIZE: string = '16fp';
+
+  /**
+   * The button width.
+   */
+  static readonly BUTTON_WIDTH: string = '296vp';
+
+  /**
+   * The button height.
+   */
+  static readonly BUTTON_HEIGHT: string = '40vp';
+
+  /**
+   * The layout height.
+   */
+  static readonly LAYOUT_HEIGHT: string = '140vp';
+
+  /**
+   * The param opacity.
+   */
+  static readonly PARAMS_OPACITY: number = 0.6;
 
   /*
    * Log Domain

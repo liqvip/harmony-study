@@ -11,6 +11,14 @@
     {
       "name": "message_arrive",
       "value": "We will arrive at %s"
+    },
+    {
+      "name": "next",
+      "value": "Next"
+    },
+    {
+      "name": "back",
+      "value": "Back"
     }
   ]
 }
