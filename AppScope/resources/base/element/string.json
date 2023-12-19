@@ -3,6 +3,14 @@
     {
       "name": "app_name",
       "value": "HarmonyStudy"
+    },
+    {
+      "name": "hello_message",
+      "value": "Hello world"
+    },
+    {
+      "name": "message_arrive",
+      "value": "We will arrive at %s"
     }
   ]
 }
