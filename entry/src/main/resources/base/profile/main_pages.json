@@ -4,7 +4,8 @@
     "pages/LifeCyclePage",
     "pages/AccessResourcePage",
     "pages/FirstPage",
-    "pages/SecondPage"
+    "pages/SecondPage",
+    "pages/SecondAbilityPage"
   ],
   "window": {
     "designWidth": 720,

@@ -6,6 +6,8 @@ export default class Routes {
 
   static readonly secondPage = 'pages/SecondPage';
 
+  static readonly secondAbilityPage = 'pages/SecondAbilityPage';
+
   static readonly lifeCyclePage = 'pages/LifeCyclePage';
 
   static readonly accessResourcePage = 'pages/AccessResourcePage';

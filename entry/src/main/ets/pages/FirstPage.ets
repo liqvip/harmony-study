@@ -1,7 +1,9 @@
 import router from '@ohos.router';
+import AppContext from '@ohos.app.ability.common';
 import CommonConstants from '../common/constants/CommonConstants';
 import Routes from '../common/constants/Routes';
 import Logger from '../common/util/Logger';
+import Want from '@ohos.app.ability.Want';
 
 @Entry
 @Component
@@ -18,7 +20,7 @@ struct FirstPage {
 
         Blank()
 
-        Button($r('app.string.next'))
+        Button($r('app.string.next_page'))
           .fontSize(CommonConstants.BUTTON_FONT_SIZE)
           .width(CommonConstants.BUTTON_WIDTH)
           .height(CommonConstants.BUTTON_HEIGHT)
@@ -34,6 +36,27 @@ struct FirstPage {
               Logger.info(this.TAG, 'FirstPage push error' + JSON.stringify(error));
             });
           })
+
+        Blank()
+
+        Button($r('app.string.next_ability'))
+          .fontSize(CommonConstants.BUTTON_FONT_SIZE)
+          .width(CommonConstants.BUTTON_WIDTH)
+          .height(CommonConstants.BUTTON_HEIGHT)
+          .backgroundColor($r('app.color.button_bg'))
+          .onClick(() => {
+            let handler = getContext(this) as AppContext.UIAbilityContext;
+            const want: Want = {
+              bundleName: getContext(this).applicationInfo.name,
+              abilityName: 'SecondAbility',
+            };
+            try {
+              handler.startAbility(want);
+            } catch (error) {
+              Logger.info(this.TAG, error)
+            }
+          })
+
       }
       .width(CommonConstants.FULL_WIDTH)
       .height(CommonConstants.LAYOUT_HEIGHT)

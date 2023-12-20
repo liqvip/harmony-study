@@ -9,6 +9,15 @@
       "value": "description"
     },{
       "name": "EntryAbility_label",
-      "value": "label"
-    }]
+      "value": "EntryAbility_desc"
+    },
+    {
+      "name": "SecondAbility_desc",
+      "value": "SecondAbility_desc"
+    },
+    {
+      "name": "SecondAbility_label",
+      "value": "SecondAbility_label"
+    }
+  ]
 }

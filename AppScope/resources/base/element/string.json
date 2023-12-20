@@ -13,8 +13,12 @@
       "value": "We will arrive at %s"
     },
     {
-      "name": "next",
-      "value": "Next"
+      "name": "next_page",
+      "value": "Next Page"
+    },
+    {
+      "name": "next_ability",
+      "value": "Next Ability"
     },
     {
       "name": "back",

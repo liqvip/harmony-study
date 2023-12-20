@@ -3,12 +3,22 @@
     {
       "name": "module_desc",
       "value": "module description"
-    }
-  ,{
+    },
+    {
       "name": "EntryAbility_desc",
-      "value": "description"
-    },{
+      "value": "EntryAbility_desc"
+    },
+    {
       "name": "EntryAbility_label",
-      "value": "label"
-    }]
+      "value": "EntryAbility_label"
+    },
+    {
+      "name": "SecondAbility_desc",
+      "value": "SecondAbility_desc"
+    },
+    {
+      "name": "SecondAbility_label",
+      "value": "SecondAbility_label"
+    }
+  ]
 }
