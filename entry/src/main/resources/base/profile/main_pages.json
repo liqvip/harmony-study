@@ -5,7 +5,8 @@
     "pages/AccessResourcePage",
     "pages/FirstPage",
     "pages/SecondPage",
-    "pages/SecondAbilityPage"
+    "pages/SecondAbilityPage",
+    "pages/MyComponentPage"
   ],
   "window": {
     "designWidth": 720,
