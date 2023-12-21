@@ -6,6 +6,7 @@ export default struct HelloComponent {
   build() {
     Row(){
       Text(this.message)
+        .fontSize(36)
         .onClick(() => {
           this.message = 'Hello, ArkUI';
         });

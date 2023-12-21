@@ -6,7 +6,8 @@
     "pages/FirstPage",
     "pages/SecondPage",
     "pages/SecondAbilityPage",
-    "pages/MyComponentPage"
+    "pages/MyComponentPage",
+    "pages/StateManagerPage"
   ],
   "window": {
     "designWidth": 720,
